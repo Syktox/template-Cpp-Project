@@ -1,0 +1,16 @@
+# Build-Verzeichnis ausschließen
+build/
+
+# VS Code spezifische Dateien
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# README und andere Docs (optional, wenn nicht im Container benötigt)
+# README.md
+
+# Temporäre Dateien
+*.tmp
+*.log

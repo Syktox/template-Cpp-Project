@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Clang (macOS)",
+        "compilers": {
+            "C": "/opt/homebrew/opt/llvm/bin/clang",
+            "CXX": "/opt/homebrew/opt/llvm/bin/clang++"
+        }
+    },
+    {
+        "name": "GCC (Linux)",
+        "compilers": {
+            "C": "/usr/bin/gcc",
+            "CXX": "/usr/bin/g++"
+        }
+    },
+    {
+        "name": "MSVC (Windows)",
+        "compilers": {
+            "C": "cl.exe",
+            "CXX": "cl.exe"
+        },
+        "visualStudio": "Visual Studio Community 2022",
+        "visualStudioArchitecture": "x64"
+    }
+]
